@@ -1,44 +1,15 @@
-# AI Expense Tracker App
+# AI Expense Tracker App 
 
-A cross-platform mobile application for tracking personal expenses using Flutter and Firebase, enhanced with AI-powered financial insights.
+A cross-platform mobile application designed to simplify personal financial management through automated expense tracking and AI-powered insights.
 
-Overview
+##  Key Features
+* **Automated Expense Detection:** Parses incoming bank SMS messages to log transactions automatically.
+* **AI-Powered Financial Insights:** Generates personalized financial advice and spending analysis.
+* **Real-time Sync & Auth:** Secure user authentication and live data syncing via Firebase.
+* **Interactive Charts:** Dynamic visual charts for tracking budgets and spending trends using `fl_chart`.
 
-The AI Expense Tracker is a mobile application designed to help users manage their personal finances more efficiently.
-The app allows users to automatically track expenses, categorize transactions, and receive AI-generated financial insights.
-
-The application supports automated expense detection through SMS bank messages, reducing the need for manual input.
-
-Features
-
-User authentication with Firebase
-
-Add and manage expenses
-
-Automatic expense detection from SMS
-
-Expense categorization
-
-Charts and financial visualization
-
-AI-powered financial suggestions
-
-Budget tracking
-
-Cross-platform support (Android / iOS)
-
-Technologies Used
-
-Flutter (Dart)
-
-Firebase Authentication
-
-Firebase Realtime Database
-
-Provider (State Management)
-
-fl_chart (Data Visualization)
-
-HTTP APIs
-
-SMS Parsing
+##  Tech Stack
+* **Framework:** Flutter (Dart)
+* **Backend:** Firebase Authentication & Realtime Database
+* **State Management:** Provider
+* **Features:** Native SMS Parsing, REST APIs, Data Visualization
